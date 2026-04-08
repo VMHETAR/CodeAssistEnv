@@ -1,0 +1,19 @@
+name: code-assist-env
+entrypoint: env:CodeAssistEnv
+
+description: Coding environment for RL agents
+
+tasks:
+  - easy
+  - medium
+  - hard
+
+actions:
+  - EditAction
+  - RunTestsAction
+
+observation:
+  type: CodeObservation
+
+tags:
+  - openenv
